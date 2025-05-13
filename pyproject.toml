@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "fitness-app"
+version = "0.1.0"
+description = ""
+authors = ["Cat'n'Code"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = "^0.111.0"
+uvicorn = "^0.29.0"
+pydantic = "^2.7.1"
+pydantic-settings = "^2.2.1"
+sqlalchemy = "^2.0.30"
+psycopg = {extras = ["binary"], version = "^3.1.19"}
+passlib = "^1.7.4"
+bcrypt = "^4.1.3"
+pyjwt = "^2.8.0"
+email-validator = "^2.1.1"
+boto3 = "^1.34.119"
+requests = "^2.32.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
